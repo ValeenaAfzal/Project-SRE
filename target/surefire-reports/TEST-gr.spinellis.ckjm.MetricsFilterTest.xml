@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="gr.spinellis.ckjm.MetricsFilterTest" time="1.046" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="gr.spinellis.ckjm.MetricsFilterTest" time="1.049" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="16"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16\bin"/>
-    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire3230657860707506451\surefirebooter2301427817800865583.jar C:\Users\hp\AppData\Local\Temp\surefire3230657860707506451 2024-05-15T15-20-23_721-jvmRun1 surefire18181958768270572870tmp surefire_09396548193010380700tmp"/>
+    <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire3016082882264924472\surefirebooter15379464181563446767.jar C:\Users\hp\AppData\Local\Temp\surefire3016082882264924472 2024-05-15T15-22-32_292-jvmRun1 surefire13475268482057027397tmp surefire_0785083024721632011tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="E:\Local Repositories\SortupRep\Project-SRE\target\test-classes;E:\Local Repositories\SortupRep\Project-SRE\target\classes;C:\Users\hp\.m2\repository\org\apache\ant\ant\1.10.5\ant-1.10.5.jar;C:\Users\hp\.m2\repository\org\apache\ant\ant-launcher\1.10.5\ant-launcher-1.10.5.jar;C:\Users\hp\.m2\repository\org\apache\bcel\bcel\6.0\bcel-6.0.jar;C:\Users\hp\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\hp\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire3230657860707506451\surefirebooter2301427817800865583.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire3016082882264924472\surefirebooter15379464181563446767.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="16+36-2231"/>
@@ -57,5 +57,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="60.0"/>
   </properties>
-  <testcase name="test" classname="gr.spinellis.ckjm.MetricsFilterTest" time="1.016"/>
+  <testcase name="test" classname="gr.spinellis.ckjm.MetricsFilterTest" time="1.01"/>
 </testsuite>
