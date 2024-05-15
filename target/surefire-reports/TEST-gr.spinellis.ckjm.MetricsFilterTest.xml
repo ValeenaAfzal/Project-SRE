@@ -1,61 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="gr.spinellis.ckjm.MetricsFilterTest" time="1.049" tests="1" errors="0" skipped="0" failures="0">
+=======
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="gr.spinellis.ckjm.MetricsFilterTest" time="0.295" tests="1" errors="0" skipped="0" failures="0">
+>>>>>>> 348986c205ba14be91ce8920bca44caf833abd73
   <properties>
-    <property name="java.specification.version" value="16"/>
+    <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="E:\Local Repositories\SortupRep\Project-SRE\target\test-classes;E:\Local Repositories\SortupRep\Project-SRE\target\classes;C:\Users\hp\.m2\repository\org\apache\ant\ant\1.10.5\ant-1.10.5.jar;C:\Users\hp\.m2\repository\org\apache\ant\ant-launcher\1.10.5\ant-launcher-1.10.5.jar;C:\Users\hp\.m2\repository\org\apache\bcel\bcel\6.0\bcel-6.0.jar;C:\Users\hp\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\hp\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="D:\Project-SRE\target\test-classes;D:\Project-SRE\target\classes;C:\Users\Zain Tahir\.m2\repository\org\apache\ant\ant\1.10.5\ant-1.10.5.jar;C:\Users\Zain Tahir\.m2\repository\org\apache\ant\ant-launcher\1.10.5\ant-launcher-1.10.5.jar;C:\Users\Zain Tahir\.m2\repository\org\apache\bcel\bcel\6.0\bcel-6.0.jar;C:\Users\Zain Tahir\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Zain Tahir\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="Asia/Karachi"/>
-    <property name="user.country.format" value="PK"/>
-    <property name="os.name" value="Windows 10"/>
-    <property name="java.vm.specification.version" value="16"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
+<<<<<<< HEAD
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16\bin"/>
     <property name="sun.java.command" value="C:\Users\hp\AppData\Local\Temp\surefire3016082882264924472\surefirebooter15379464181563446767.jar C:\Users\hp\AppData\Local\Temp\surefire3016082882264924472 2024-05-15T15-22-32_292-jvmRun1 surefire13475268482057027397tmp surefire_0785083024721632011tmp"/>
+=======
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\ZAINTA~1\AppData\Local\Temp\surefire11329764664901503917\surefirebooter8854264894863817216.jar C:\Users\Zain Tahir\AppData\Local\Temp\surefire11329764664901503917 2024-05-15T20-21-28_260-jvmRun1 surefire4727407338607366839tmp surefire_011114955449265382516tmp"/>
+>>>>>>> 348986c205ba14be91ce8920bca44caf833abd73
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="E:\Local Repositories\SortupRep\Project-SRE\target\test-classes;E:\Local Repositories\SortupRep\Project-SRE\target\classes;C:\Users\hp\.m2\repository\org\apache\ant\ant\1.10.5\ant-1.10.5.jar;C:\Users\hp\.m2\repository\org\apache\ant\ant-launcher\1.10.5\ant-launcher-1.10.5.jar;C:\Users\hp\.m2\repository\org\apache\bcel\bcel\6.0\bcel-6.0.jar;C:\Users\hp\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\hp\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="D:\Project-SRE\target\test-classes;D:\Project-SRE\target\classes;C:\Users\Zain Tahir\.m2\repository\org\apache\ant\ant\1.10.5\ant-1.10.5.jar;C:\Users\Zain Tahir\.m2\repository\org\apache\ant\ant-launcher\1.10.5\ant-launcher-1.10.5.jar;C:\Users\Zain Tahir\.m2\repository\org\apache\bcel\bcel\6.0\bcel-6.0.jar;C:\Users\Zain Tahir\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\Zain Tahir\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\hp"/>
+    <property name="user.home" value="C:\Users\Zain Tahir"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2021-03-16"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-16"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="E:\Local Repositories\SortupRep\Project-SRE"/>
+    <property name="basedir" value="D:\Project-SRE"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
+<<<<<<< HEAD
     <property name="surefire.real.class.path" value="C:\Users\hp\AppData\Local\Temp\surefire3016082882264924472\surefirebooter15379464181563446767.jar"/>
+=======
+    <property name="surefire.real.class.path" value="C:\Users\ZAINTA~1\AppData\Local\Temp\surefire11329764664901503917\surefirebooter8854264894863817216.jar"/>
+>>>>>>> 348986c205ba14be91ce8920bca44caf833abd73
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="16+36-2231"/>
-    <property name="user.name" value="Valeena"/>
+    <property name="java.runtime.version" value="17.0.10+11-LTS-240"/>
+    <property name="user.name" value="Zain Tahir"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-20\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
-    <property name="localRepository" value="C:\Users\hp\.m2\repository"/>
+    <property name="localRepository" value="C:\Users\Zain Tahir\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\hp\AppData\Local\Temp\"/>
-    <property name="java.version" value="16"/>
-    <property name="user.dir" value="E:\Local Repositories\SortupRep\Project-SRE"/>
+    <property name="java.io.tmpdir" value="C:\Users\ZAINTA~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.10"/>
+    <property name="user.dir" value="D:\Project-SRE"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-16\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\VMware\VMware Player\bin\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Git LFS;C:\Program Files\Java\jdk-21\bin;C:\Users\hp\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\hp\AppData\Local\Android\Sdk\platform-tools;C:\Python312\Scripts\;C:\Python312\;C:\Users\hp\AppData\Local\Microsoft\WindowsApps;C:\Users\hp\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\hp\AppData\Local\GitHubDesktop\bin;C:\Users\hp\AppData\Roaming\npm;C:\Program Files\Python311;C:\Program Files\Python311\Scripts;C:\Users\hp\AppData\Roaming\nvm;C:\Program Files\nodejs;;."/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\nodejs;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\ProgramData\chocolatey\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\Zain Tahir\AppData\Local\Pub\Cache\bin;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Java\jdk-17\bin;C:\Users\Zain Tahir\AppData\Local\Android\Sdk\tools;C:\Users\Zain Tahir\AppData\Local\Android\Sdk\tools;C:\Users\Zain Tahir\AppData\Local\Microsoft\WindowsApps;C:\Users\Zain Tahir\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Zain Tahir\AppData\Roaming\npm;C:\ProgramData\Zain Tahir\GitHubDesktop\bin;C:\Users\Zain Tahir\AppData\Local\GitHubDesktop\bin;C:\Program Files\nodejs;C:\Users\Zain Tahir\Downloads\flutter_windows_3.16.5-stable\flutter\bin;C:\Users\Zain Tahir\.dotnet\tools;C:\Users\Zain Tahir\AppData\Local\Android\Sdk;C:\Users\Zain Tahir\AppData\Local\Android\Sdk\platform-tools;C:\Users\Zain Tahir\AppData\Local\Pub\Cache\bin;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Java\jdk-17\bin;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="16+36-2231"/>
+    <property name="java.vm.version" value="17.0.10+11-LTS-240"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="60.0"/>
+    <property name="java.class.version" value="61.0"/>
   </properties>
+<<<<<<< HEAD
   <testcase name="test" classname="gr.spinellis.ckjm.MetricsFilterTest" time="1.01"/>
+=======
+  <testcase name="test" classname="gr.spinellis.ckjm.MetricsFilterTest" time="0.238"/>
+>>>>>>> 348986c205ba14be91ce8920bca44caf833abd73
 </testsuite>
