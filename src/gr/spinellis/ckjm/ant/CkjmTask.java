@@ -37,16 +37,16 @@ import org.apache.tools.ant.types.Path;
  * @author Julien Rentrop
  */
 public class CkjmTask extends MatchingTask {
-    private static final String FORMAT_PLAIN = "plain";
-    private static final String FORMAT_XML = "xml";
-
+    private static final String FORMAT_PLAIN = "plain";//added
+    private static final String FORMAT_XML = "xml";//added
+    
     private File outputFile;
     private File classDir;
     private Path extdirs;
     private String format;
 
-    public CkjmTask() {
-        this.format = FORMAT_PLAIN;
+     public CkjmTask() {
+        this.format = FORMAT_PLAIN; //added
     }
 
     /**
@@ -136,14 +136,14 @@ public class CkjmTask extends MatchingTask {
             }
 
             try {
-                processMetrics(files, new FileOutputStream(outputFile));
+                processMetrics(files, new FileOutputStream(outputFile));//added method call instead of sequential code
             } catch (IOException ioe) {
                 throw new BuildException("Error file handling: " + ioe.getMessage(), ioe);
             }
         }
     }
 
-    private void processMetrics(String[] files, OutputStream outputStream) throws IOException {
+    private void processMetrics(String[] files, OutputStream outputStream) throws IOException {//added this new method
         try (OutputStream os = outputStream) {
             if (FORMAT_XML.equals(format)) {
                 PrintXmlResults outputXml = new PrintXmlResults(new PrintStream(os));
