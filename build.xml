@@ -7,14 +7,14 @@
 <!-- set global properties for this build -->
 <!-- VERSION -->
 <property environment="env"/>
-<property name="src" location="src"/>
+<property name="src" location="/src/gr/spinellis/ckjm"/>
 <property name="build" location="build"/>
 <property name="images" location="images"/>
 <property name="dist"  location="/dds/pubs/web/home/sw/ckjm"/>
 <property name="antlib"  location="${env.ANT_HOME}/lib"/>
-<property name="jarfile"  location="${build}/ckjm-${version}.jar"/>
+<property name="jarfile"  location="${build}/ckjm-1.0-SNAPSHOT.jar"/>
 <property name="javadoc" location="javadoc"/>
-<property name="bcel" value="bcel-6.8.1.jar"/>
+<property name="bcel" value="bcel-6.0.jar"/>
 
 <target name="init">
 	<!-- Create the time stamp -->
@@ -58,8 +58,8 @@
 	  </classpath>
 	</taskdef>
 
-	<ckjm outputfile="hsqldb.xml" format="xml" classdir="/app/hsqldb/classes">
-	  <extdirs path="/app/hsqldb/lib" />
+	<ckjm outputfile="one.xml" format="xml" classdir="target/classes/gr/spinellis/ckjm">
+	  <extdirs path="/one/lib" />
 	  <include name="**/*.class" />
 	</ckjm>
 	<style in="hsqldb.xml" style="xsl/ckjm.xsl" out="output_simple.html" />
@@ -104,6 +104,21 @@
 		<arg value="-o${gifFile}"/>
 		<arg value="${dotFile}"/>
 	</exec>
+</target>
+<target name="ckjm" depends="compile">
+
+  <taskdef name="ckjm" classname="gr.spinellis.ckjm.ant.CkjmTask">
+    <classpath>
+      <pathelement location="target/ckjm-1.0-SNAPSHOT.jar"/>
+    </classpath>
+  </taskdef>
+
+  <ckjm outputfile="ckjm.xml" format="xml" classdir="build/classes">
+    <include name="target/classes/gr/spinellis/ckjm/*.class" />
+    <exclude name="**/*Test.class" />
+  </ckjm>
+
+  <style in="ckjm.xml" style="xsl/ckjm.xsl" out="ckjm.html" />
 </target>
 
 </project>
